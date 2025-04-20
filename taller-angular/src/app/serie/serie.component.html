@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col">
+    <div>
+      <table class="table">
+        <thead class="table-dark">
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Channel</th>
+            <th>Seasons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let serie of series">
+            <td>{{ serie.id }}</td>
+            <td>{{ serie.name }}</td>
+            <td>{{ serie.channel }}</td>
+            <td>{{ serie.seasons }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <span>Seasons average: <b *ngIf="meanSeasons">{{meanSeasons}}</b></span>
+    </div>
+  </div>
+
+  <div class="col">
+
+  </div>
+</div>
