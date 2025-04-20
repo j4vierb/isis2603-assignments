@@ -1,5 +1,5 @@
-# Isis2610 assignments
-This repository contains the assignments solutions for the course ISIS2610 at Universidad de los Andes.
-The assignments are organized in folders, each folder corresponds to a different assignment.
-Each folder was a different git repository, but they were merged into this one for convenience.
+# ISIS2603 - Software development in teams assignments
 
+This repository contains my solutions for the assignments in the ISIS2610 course at Universidad de los Andes.
+You'll find each assignment's solution within its own dedicated folder. While initially developed in individual Github repositories,
+they have been merged into this single repository for convenience.
